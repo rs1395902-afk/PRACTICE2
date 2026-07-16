@@ -25,5 +25,9 @@ while True:         #SHOW THE MENU BAR
             print(f"{issue_book} HAS BEEN ISSUED")
         else:
             print("NOT AVAILABLE")
+    elif choice == 4: #RETURN BOOKS
+        return_book = input("ENTER THE BOOK NAME TO RETURN : ")
+        books.append(return_book)
+        print(f"{return_book} HAS BEEN RETURNED")
     
        
