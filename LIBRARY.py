@@ -29,5 +29,11 @@ while True:         #SHOW THE MENU BAR
         return_book = input("ENTER THE BOOK NAME TO RETURN : ")
         books.append(return_book)
         print(f"{return_book} HAS BEEN RETURNED")
+        print(f"{return_book} HAS BEEN RETURNED")
+    elif choice == 5: #FOR EXIT
+        print("THANK YOU ,VISIT AGAIN")
+    else:
+        print("INVAILD INPUT")
+        
     
        
