@@ -18,19 +18,19 @@ while True:         #SHOW THE MENU BAR
         new_book = input("ENTER THE NAME OF THE BOOK TO ADD : ")
         books.append(new_book)
         print(f"{new_book} HAS BEEN ADDED TO THE LIBRARY ")
-    elif choice == 3:  #ISSUE BOOKS
+    elif choice == "3":  #ISSUE BOOKS
         issue_book = input("ENTER THE BOOK NAME TO ISSUE : ")
         if issue_book in books:
             books.remove(issue_book)
             print(f"{issue_book} HAS BEEN ISSUED")
         else:
             print("NOT AVAILABLE")
-    elif choice == 4: #RETURN BOOKS
+    elif choice == "4": #RETURN BOOKS
         return_book = input("ENTER THE BOOK NAME TO RETURN : ")
         books.append(return_book)
         print(f"{return_book} HAS BEEN RETURNED")
         print(f"{return_book} HAS BEEN RETURNED")
-    elif choice == 5: #FOR EXIT
+    elif choice == "5": #FOR EXIT
         print("THANK YOU ,VISIT AGAIN")
     else:
         print("INVAILD INPUT")
