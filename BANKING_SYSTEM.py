@@ -14,6 +14,8 @@ while True:         #MENU BAAR
         print(f"THE AVAILABLE BALANCE ON YOUR ACCOUNT IS : {balance} ")
     elif a == "2":
         amt = int(input("ENTER THE AMOUNT :"))
+        if amt > balance:
+            print("SORRY! YOU DO NOT HAVE SUFFICIENT AMOUNT.")
         balance = balance - amt
         print(f"YOUR AMOUNT {amt} HAS BEEN SUCCESFULLY WITHDRAWN")
         print(f"THE AVAILABLE BALANCE ON YOUR ACCOUNT IS : {balance} ")
