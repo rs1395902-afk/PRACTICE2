@@ -6,3 +6,7 @@ while True:         #MENU BAAR
     print("3. DEPOSIT BALANCE")
     print("4. EXIT")
     
+    a = int(input("ENTER YOUR CHOICE : "))
+    
+
+    
